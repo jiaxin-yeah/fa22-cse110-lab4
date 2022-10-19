@@ -54,3 +54,15 @@ ReferenceError: i is not defined
 
 10. It prints `3`. It will just print the length of `prices`, which is `3`.
 11. The function will return the `discounted` list whose value is a list of final prices, i.e. `[100 * 0.5, 200 * 0.5, 300 * 0.5] = [50, 100, 150]`. `????????????????`
+12. 
+    A. `student.name`
+    B. `student["Grad Year"]`
+    C. `student.greeting()`
+    D. `student["Favorite Teacher"].name`
+    E. `student.courseLoad[0]`
+13. 
+    A. `'32'`: The string `'3'` is concatenated with the int `2` while converting `2` from int to string to form the string `'32'`.
+    B. `1`: The string `'3'` is converted to int `3` since JavaScript can't perform substraction on strings, and `3 - 2 = 1`.
+    C. `3`: JavaScript treats `null` as `0` while adding it to an int, so `3 + 0 = 3`.
+    D. `'3null'`: JavaScript treats `null` as a string while adding it to a string, so these two strings concatenated together to form `'3null'`.
+    E. `4`: JavaScript treats `true` as an int equal to `1` while adding it to an int, so `1 + 3 = 4`. 
