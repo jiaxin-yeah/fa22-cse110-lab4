@@ -65,4 +65,7 @@ ReferenceError: i is not defined
     - B. `1`: The string `'3'` is converted to int `3` since JavaScript can't perform substraction on strings, and `3 - 2 = 1`.
     - C. `3`: JavaScript treats `null` as `0` while adding it to an int, so `3 + 0 = 3`.
     - D. `'3null'`: JavaScript treats `null` as a string while adding it to a string, so these two strings concatenated together to form `'3null'`.
-    - E. `4`: JavaScript treats `true` as an int equal to `1` while adding it to an int, so `1 + 3 = 4`. 
+    - E. `4`: JavaScript treats `true` as an int equal to `1` while adding it to an int, so `1 + 3 = 4`.
+    - F. hi
+    - G. hi
+    - H. hi
