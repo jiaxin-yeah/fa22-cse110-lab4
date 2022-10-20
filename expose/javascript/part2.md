@@ -77,7 +77,7 @@ ReferenceError: i is not defined
     - E. `false`: `true` becomes `1`, and `1` is not equal to `2`.
     - F. `true`: Since `2` is not intuitively "empty", `Boolean(2)` becomes `true`. And, `true` is indeed equal to `true`.
   15. When we're using `==`, operands of different types are converted to numbers automatically. However, if we use `===`, we will not perform any type conversion. So, as long as the two comparators are of different types, `===` would return `false`, but `==` would return `true` in some cases if after conversion, their numerical values are the same.
-  16. See [part2-question16.js](../part2-question16.js)
+  16. See [part2-question16.js](./part2-question16.js)
   17. `[ 2, 4, 6 ]`: we first do `doSomething` on each element of the first element, then `1` becomes `2`, and we push this `2` to the `newArr`. Then, repeat this process. `2` becomes `4` and pushes `4`. `3` becomes `6` and pushes `6`.
   18. See [part2-question18.js](../part2-question18.js)
   19. `1 4 3 2`
