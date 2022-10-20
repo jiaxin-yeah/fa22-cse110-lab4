@@ -1,9 +1,2 @@
-1. citylots.json
-2. expose.js
-3. 780kB
-4. 1.5min
-5. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
-6. GitHub.com
-7. Thu, 15 Sep 2022 22:44:30 GMT
-8. application/json; charset=utf-8
-9. `init()`
+1. The bug is `num1` and `num2` are strings. So, when we add two strings, they will just concatenate with each other and the result would be a concatenated string.
+2. I would cast both into int using `parseInt(num1)` and `parseInt(num2)`.
