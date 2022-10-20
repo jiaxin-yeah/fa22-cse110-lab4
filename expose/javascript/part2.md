@@ -66,6 +66,18 @@ ReferenceError: i is not defined
     - C. `3`: JavaScript treats `null` as `0` while adding it to an int, so `3 + 0 = 3`.
     - D. `'3null'`: JavaScript treats `null` as a string while adding it to a string, so these two strings concatenated together to form `'3null'`.
     - E. `4`: JavaScript treats `true` as an int equal to `1` while adding it to an int, so `1 + 3 = 4`.
-    - F. hi
-    - G. hi
-    - H. hi
+    - F. `0`: JavaScript treats `false` as an int equal to `0`, and `null` as an int equal to `0`, so `0 + 0 = 0`.
+    - G. `'3undefined'`: JavaScript treats `undefined` as a string while adding it to a string, so these two strings concatenated together to form `'3undefined'`.
+    - H. `NaN`: JavaScript treats `undefined` as `NaN` and `'3'` as the integer `3`. However, the overall calculation `3 - NaN` is not defined and thus return `NaN`.
+14. 
+    - A. `true`: string `'2'` becomes a number `2` and `2` is indeed bigger than `1`.
+    - B. `true`: string `'2'` becomes a number `2`, string `'12'` becomes a number `12`, and `2` is indeed smaller than `12`.
+    - C. `true`: string `'2'` becomes a number `2` and `2` is indeed equal to `2`.
+    - D. `false`: Since `2` is int and `'2'` is string, the strict equality check would return false due to different data types.
+    - E. `false`: `true` becomes `1`, and `1` is not equal to `2`.
+    - F. `true`: Since `2` is not intuitively "empty", `Boolean(2)` becomes `true`. And, `true` is indeed equal to `true`.
+  15. When we're using `==`, operands of different types are converted to numbers automatically. However, if we use `===`, we will not perform any type conversion. So, as long as the two comparators are of different types, `===` would return `false`, but `==` would return `true` in some cases if after conversion, their numerical values are the same.
+  16. See `part2-question16.js`
+  17. `[ 2, 4, 6 ]`: we first do `doSomething` on each element of the first element, then `1` becomes `2`, and we push this `2` to the `newArr`. Then, repeat this process. `2` becomes `4` and pushes `4`. `3` becomes `6` and pushes `6`.
+  18. See `part2-question18.js`
+  19. `1 4 3 2`
