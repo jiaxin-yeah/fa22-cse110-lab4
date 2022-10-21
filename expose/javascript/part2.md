@@ -35,7 +35,7 @@ ReferenceError: discountedPrice is not defined
     at node:internal/main/run_main_module:22:47
 
 7. It prints `150`. As reasoned in Question 3, the final value of `finalPrice` becomes `150`. And since `finalPrice` is defined with `let` in line 4, not in the `for loop`. So, we can access this `finalPrice` at line 14.
-8. The function will return the `discounted` list whose value is a list of final prices, i.e. `[100 * 0.5, 200 * 0.5, 300 * 0.5] = [50, 100, 150]`. `????????????????`
+8. The function will return the `discounted` list whose value is a list of final prices, i.e. `[100 * 0.5, 200 * 0.5, 300 * 0.5] = [50, 100, 150]`. This is because for each price, we apply a 50% off discount and push this final price to the `discounted` list.
 9. It prints the ReferenceError. It's when we use `let` to declare `i`, we can only access `i` inside the `for loop`. When we try to print `i` outside the `for loop`, we would get the ReferenceError.
 
 /Users/apple/fa22-cse110-lab4/expose/javascript/discountPrices.js:11
@@ -53,7 +53,7 @@ ReferenceError: i is not defined
     at node:internal/main/run_main_module:22:47
 
 10. It prints `3`. It will just print the length of `prices`, which is `3`.
-11. The function will return the `discounted` list whose value is a list of final prices, i.e. `[100 * 0.5, 200 * 0.5, 300 * 0.5] = [50, 100, 150]`. `????????????????`
+11. The function will return the `discounted` list whose value is a list of final prices, i.e. `[100 * 0.5, 200 * 0.5, 300 * 0.5] = [50, 100, 150]`. This is because for each price, we apply a 50% off discount and push this discounted price to the `discounted` list.
 12. 
     - A. `student.name`
     - B. `student["Grad Year"]`
