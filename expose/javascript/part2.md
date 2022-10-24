@@ -71,7 +71,7 @@ ReferenceError: i is not defined
     - H. `NaN`: JavaScript treats `undefined` as `NaN` and `'3'` as the integer `3`. However, the overall calculation `3 - NaN` is not defined and thus return `NaN`.
 14. 
     - A. `true`: string `'2'` becomes a number `2` and `2` is indeed bigger than `1`.
-    - B. `false`: The first element of `2` is `2`, and the first of `12` is `1`. When we compare the first character, `2` is bigger than `1` alphabetically, so `2` < `12` would return false. 
+    - B. `false`: The first element of `2` is `2`, and the first of `12` is `1`. When we compare the first character, `2` is bigger than `1` alphabetically, so `'2'` < `'12'` would return false. 
     - C. `true`: string `'2'` becomes a number `2` and `2` is indeed equal to `2`.
     - D. `false`: Since `2` is int and `'2'` is string, the strict equality check would return false due to different data types.
     - E. `false`: `true` becomes `1`, and `1` is not equal to `2`.
